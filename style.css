@@ -1,0 +1,351 @@
+*{
+    font-family: "Baloo Tamma 2", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    background: black;
+      transition: all 0.3s ease;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+  color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar.sticky{
+  padding: 15px 0;
+  background: crimson;
+}
+.navbar .logo a span{
+  color: green;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+  color: yellow;
+}
+
+.register{
+  width: 600px;
+  height: 600px;
+
+  background: #fff;
+  color: #000;
+
+  top: 55%;
+  left: 50%;
+
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  box-shadow: 5px 10px 5px 10px #888888;
+
+}
+
+.loginbox{
+  width: 330px;
+  height: 420px;
+  background-image: url("https://cdn.hipwallpaper.com/i/75/53/0cFvKO.jpg");
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  box-shadow: 5px 10px #888888;
+
+}
+
+.loginbox input[type="text"] , .loginbox input[type="password"]
+{
+  border: 0;
+  display: inline-block;
+
+  border: 2px solid ;
+  border-color: #0ff;
+  padding: 5px 5px;
+
+
+  border-radius: 10px;
+
+}
+
+.loginbox input[type="submit"]
+{
+  margin-left: 80px;
+  width: 40%;
+
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+}
+
+.register input[type="button"]
+{
+  margin-left: 40px;
+  width: 20%;
+
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+}
+
+.register input[type="reset"]
+{
+  margin-left: 40px;
+  width: 20%;
+
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+}
+
+.bubbles img{
+  width: 50px;
+  animation: bubble 7s linear infinite;
+}
+
+.bubbles img:nth-child(1){
+animation-delay: 2s;
+
+}
+.bu{
+  margin: 20px;
+  margin-left: 40px;
+  width: 50%;
+
+  border: none;
+  outline: none;
+  height: 30px;
+  background: green;
+  color: #fff;
+  font-size: 18px;
+}
+
+.go{
+  margin-left: 40px;
+  width: 20%;
+
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  bottom: 0;
+}
+
+
+
+.bubbles img:nth-child(2){
+animation-delay: 1s;
+
+}
+.bubbles img:nth-child(3){
+animation-delay: 3.5s;
+
+}
+.bubbles img:nth-child(4){
+animation-delay: 4s;
+
+}
+.bubbles img:nth-child(5){
+animation-delay: 4.5s;
+
+}
+
+
+.bubbles{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+}
+
+.pic{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  position: middle;
+  top: -10%;
+
+}
+h2{
+  margin: 0px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* home section styling*/
+
+.home{
+  display: flex;
+  background-image: url("https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  min-height: 500px;
+
+}
+.home .max-width{
+margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+  font-size: 28px;
+}
+
+.home .home-content .text-2{
+font-size: 75px;
+font-weight: 600;
+margin-left: -3px;
+}
+
+.home .home-content .text-3{
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+  color: crimson;
+  font-weight: 500px;
+}
+section{
+  padding: 100px 0;
+}
+
+.about .about-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.about .title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+
+.about .about-content .left{
+  width: 45%
+}
+.about .about-content .left img{
+  height: 200px;
+  weidth: 200px;
+}
+
+.about .about-content .right{
+  width: 55%;
+}
+
+.about .about-content .right .text{
+  front-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Education{
+  display: flex;
+  background-image: url("https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  min-height: 500px;
+
+}
+
+.Education .max-width{
+margin: auto 0 auto 40px;
+}
+
+.skills .title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+
+.skills{
+  display: flex;
+  background-image: url("https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  min-height: 500px;
+
+}
+
+.skills .max-width{
+margin: auto 0 auto 40px;
+}
+
+@keyframes bubble {
+  0%{
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50%{
+
+    opacity: 1;
+  }
+  70%{
+
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+
+
+
+}
